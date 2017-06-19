@@ -13,7 +13,7 @@
     "require-dev": {},
     "autoload": {
         "psr-4": {
-            "Alekhin\\WebsiteHelpers\\": "src"
+            "Alekhin\\WordPressHelpers\\": "src"
         }
     }
 }
