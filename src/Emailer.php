@@ -2,9 +2,9 @@
 
 namespace Alekhin\WordPressHelpers;
 
-if (!class_exists(__NAMESPACE__ . '\emailer')) {
+if (!class_exists(__NAMESPACE__ . '\Emailer')) {
 
-    class emailer {
+    class Emailer {
 
         static function make_html_email($subject, $body) {
             $html = '';
